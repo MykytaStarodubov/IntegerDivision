@@ -30,7 +30,7 @@ public class IntegerDivision {
     }
 
     public void performDivision() {
-    	
+
         int currentRemainder = finalRemainder;
 
         if (currentRemainder == 0 || Math.abs(divisor) > Math.abs(dividend)) {
