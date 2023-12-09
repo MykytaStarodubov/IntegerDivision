@@ -12,5 +12,4 @@ class IntegerDivisionTest {
 	void shouldThrowExceptionWhenDivisorIsZero() {
 		assertThrows(IllegalArgumentException.class, () -> new IntegerDivision(10, 0));
 	}
-
 }
